@@ -30,7 +30,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/auth" element={<Auth />} />
 
       {/* Routes without layouts */}
-      <Route path="/landing" element={<Landing />} />
       <Route path="/index" element={<Index />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
