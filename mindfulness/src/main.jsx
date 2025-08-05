@@ -33,7 +33,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/index" element={<Index />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/profile" element={<Profile />} />
       <Route path="/recipe-search" element={<RecipeSearch />} />
       <Route path="/meditation" element={<Meditation />} />
       <Route path="/daily-affirmation" element={<DailyAffirmation />} />
