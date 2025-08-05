@@ -10,9 +10,7 @@ import Auth from "layouts/Auth.jsx";
 import Login from "views/auth/Login.jsx";
 import Register from "views/auth/Register.jsx";
 
-// views without layouts
-import Landing from "views/Landing.jsx";
-import Profile from "views/Profile.jsx";
+// views without layout
 import Index from "views/Index.jsx";
 import RecipeSearch from "views/Edamam/RecipeSearch.jsx";
 import DailyAffirmation from "views/services/DailyAffirmation.jsx";
