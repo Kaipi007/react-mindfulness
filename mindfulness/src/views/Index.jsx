@@ -6,7 +6,7 @@ import Footer from "components/Footers/Footer.jsx";
 
 // Import your images at the top
 import mindfulnessImage from "assets/img/mindfulness.jpg";
-import toDoListImage from "assets/img/toDoListImage.jpg";
+import toDoListImage from "assets/img/todolistmage.jpg";
 import meditationImage from "assets/img/meditation.jpg";
 import aiChatbotImage from "assets/img/ai-chatbot.jpg";
 
