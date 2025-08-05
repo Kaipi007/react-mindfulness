@@ -1,0 +1,19 @@
+@keyframes moveBackgroundQuickMeditation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .quick-meditation-moving-bg {
+    background: linear-gradient(270deg, #b9c78d 20%, #6bb3a8 40%, #97c5a3 60%, #4e709c 80%);
+    background-size: 400% 400%;
+    animation: moveBackgroundQuickMeditation 10s ease infinite;
+  }
+  
+  .quick-meditation-ripple-effect {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  

@@ -1,0 +1,19 @@
+@keyframes moveBackgroundFeelStronger {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.feel-stronger-moving-bg {
+    background: linear-gradient(270deg, #FCD7B6 20%, #EDBEA6 40%, #ED9595 60%, #ED859D 80%);
+    background-size: 400% 400%;
+    animation: moveBackgroundFeelStronger 10s ease infinite;
+}
+
+.feel-stronger-ripple-effect {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+

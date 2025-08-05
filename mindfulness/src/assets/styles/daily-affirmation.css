@@ -1,0 +1,21 @@
+@keyframes moveBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .moving-bg {
+    background: linear-gradient(270deg, #3a1c71, #d76d77, #ffaf7b);
+    background-size: 400% 400%;
+    animation: moveBackground 10s ease infinite;
+  }
+  
+  .ripple-effect {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  
+  

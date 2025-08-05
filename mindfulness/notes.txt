@@ -1,0 +1,42 @@
+tech used:
+Font Awesome
+Tailwind CSs
+flowbiteCSS(RecipeSearch)
+spoonacular api
+
+unsplash:
+(PARK)
+https://unsplash.com/photos/people-playing-soccer-on-green-grass-field-during-daytime-vJDbPuxUS_s
+
+
+(FOREST)
+https://unsplash.com/photos/photography-of-tall-trees-at-daytime-MMJx78V7xS8      
+
+(RAIN)
+https://unsplash.com/photos/people-holding-umbrella-cWM1ZOSUzU4
+
+(WAVES)
+https://unsplash.com/photos/body-of-water-under-sky-6ArTTluciuA
+
+(STREAM)
+https://unsplash.com/photos/macro-photography-of-water-and-stones-ko7Tp_LyAt4
+
+meditation audio
+https://www.freemindfulness.org/download?utm_source=chatgpt.com
+
+REACT 
+npm uninstall react-router-dom
+
+npm install react-router-dom@6.30.0
+
+feather icons
+bootstrap icons
+
+PAGES
+-Index
+-Meditation.js->(DailyAFfirmation.js,FeelStronger.js,QuickMeditation.js,SleepBetter.js)
+-chatboxSurvey.js->AIchatbox.js
+-RecipeSearch.js
+
+https://console.cloud.google.com/auth/clients/create?project=cosmic-octane-382405
+google auth login check

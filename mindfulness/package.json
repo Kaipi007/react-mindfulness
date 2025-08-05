@@ -1,0 +1,48 @@
+{
+  "name": "mindfulness",
+  "version": "1.2.0",
+  "description": "Mindfulness - A Place to Heal Your Soul",
+  "repository": "https://github.com/Kaipi007/react-mindfulness",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npx wrangler pages deploy ./dist --project-name=react-mindfulness",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@popperjs/core": "^2.9.1",
+    "@react-oauth/google": "^0.12.1",
+    "axios": "^1.8.4",
+    "chart.js": "^4.4.8",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "vite": "^4.5.12"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
