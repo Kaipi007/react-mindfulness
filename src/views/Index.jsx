@@ -242,7 +242,7 @@ export default function Index() {
                         to="/ai-chatbox"
                         className="text-white font-bold px-6 py-3 rounded outline-none focus:outline-none bg-blueGray-700 hover:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg transition-all duration-150"
                       >
-                        Mind Mellow 🌿💛☁️
+                        Mind Mellow
                       </Link>
                     </div>
                   </blockquote>
