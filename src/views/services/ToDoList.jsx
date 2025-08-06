@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.jsx";
-import Footer from "components/Footers/Footer.jsx";
+import Footer from "components/Footers/Footer.jsx";   
 
 function ToDoList() {
 
