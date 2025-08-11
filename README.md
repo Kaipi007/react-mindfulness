@@ -39,12 +39,11 @@ This project is a modern, single-page application built with React to provide a 
 
 * **Guided Meditations:** A library of guided sessions, including a `QuickMeditation` and a `SleepBetter` module, to help users relax and de-stress.
 * **Breathing Exercises:** Interactive and visually guided breathing exercises to help users regulate their breath and calm their minds.
-* **Focus Timer:** A simple, customizable timer to assist users in maintaining focus during work or study sessions (e.g., using the Pomodoro Technique).
 * **Daily Affirmations:** A section for daily affirmations to promote positive thinking.
 * **To-Do List:** A simple to-do list to help users stay organized.
-* **Self-Improvement Modules:** Features like `FeelStronger` to help users build mental resilience.
 * **AI Chatbot:** An AI chatbot (`AIchatbot.jsx`) to provide interactive support and assistance.
 * **Chatbot Survey:** A survey (`chatbot_Survey.jsx`) to gather user feedback on the chatbot's performance. (not implemented, can be further enhanced)
+* **Self-Improvement Modules:** Features like `FeelStronger` to help users build mental resilience.
 * **User Authentication:** An authentication system (`auth` folder) to manage user sessions.
 * **Minimalist UI:** A clean and intuitive design optimized for a distraction-free user experience.
 * **Responsive Design:** The application is accessible and user-friendly on both desktop and mobile devices.
