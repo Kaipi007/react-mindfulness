@@ -3,15 +3,16 @@
 ## Live Demo
 
 🚀 **View Live Demo:** [https://react-mindfulness.pages.dev/](https://react-mindfulness.pages.dev/)
-*Deployed on Cloudflare*
+
+*Deployed on CloudFlare*
 
 ## Screenshots
 
 ### Web Version
-![React Mindfulness App - Web Version](https://raw.githubusercontent.com/Kaipi007/react-mindfulness/master/web%version.png)
+![React Mindfulness App - Web Version](https://raw.githubusercontent.com/Kaipi007/react-mindfulness/master/web_version.png)
 
 ### Mobile Version
-![React Mindfulness App - Mobile Version](https://raw.githubusercontent.com/Kaipi007/react-mindfulness/master/mobile%version.png)
+![React Mindfulness App - Mobile Version](https://raw.githubusercontent.com/Kaipi007/react-mindfulness/master/mobile_version.png)
 
 *This application is designed to be fully responsive and works seamlessly on both mobile and web browsers.*
 
