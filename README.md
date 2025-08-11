@@ -2,18 +2,16 @@
 
 ## Live Demo
 
-🚀 **View Live Demo:** [https://react-mindfulness.pages.dev/]
-*Deployed on GitHub Pages*
+🚀 **View Live Demo:** [https://react-mindfulness.pages.dev/](https://react-mindfulness.pages.dev/)
+*Deployed on Cloudflare*
 
 ## Screenshots
 
 ### Web Version
-
-*No image provided yet.*
+![React Mindfulness App - Web Version](https://raw.githubusercontent.com/Kaipi007/react-mindfulness/main/web-version.png)
 
 ### Mobile Version
-
-*No image provided yet.*
+![React Mindfulness App - Mobile Version](https://raw.githubusercontent.com/Kaipi007/react-mindfulness/main/mobile-version.png)
 
 *This application is designed to be fully responsive and works seamlessly on both mobile and web browsers.*
 
@@ -25,6 +23,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+  * [API Keys and Environment Variables](#api-keys-and-environment-variables)
 * [Project Structure](#project-structure)
 * [Contributing](#contributing)
 * [License](#license)
@@ -45,6 +44,8 @@ This project is a modern, single-page application built with React to provide a 
 * **Self-Improvement Modules:** Features like `FeelStronger` to help users build mental resilience.
 * **AI Chatbot:** An AI chatbot (`AIchatbot.jsx`) to provide interactive support and assistance.
 * **Chatbot Survey:** A survey (`chatbot_Survey.jsx`) to gather user feedback on the chatbot's performance. (not implemented, can be further enhanced)
+* **User Authentication:** An authentication system (`auth` folder) to manage user sessions.
+* **Minimalist UI:** A clean and intuitive design optimized for a distraction-free user experience.
 * **Responsive Design:** The application is accessible and user-friendly on both desktop and mobile devices.
 
 ## Technologies Used
@@ -56,6 +57,11 @@ This project is a modern, single-page application built with React to provide a 
   * CSS3
 * **Package Manager:**
   * [npm](https://www.npmjs.com/)
+* **API:**
+  * [OpenAI](https://openai.com/)
+  * [Google Gemini API](https://ai.google.dev/)
+  * [Spoonacular API](https://spoonacular.com/food-api)
+  * [Edamame API](https://developer.edamam.com/)
 
 ## Getting Started
 
@@ -85,6 +91,23 @@ Ensure you have the following installed:
    npm start
    ```
    The application will typically open in your browser at `http://localhost:3000`.
+
+### API Keys and Environment Variables
+This project uses several APIs that require authentication. To protect your API keys and ensure the application runs correctly, you need to create a `.env` file in the root of your project.
+
+1.  **Create a `.env` file** in the root directory of the project.
+2.  **Add your API keys** to the file using the following format:
+    ```
+    VITE_EDAMAM_APP_ID=your_edamame_app_id
+    VITE_EDAMAM_APP_KEY=your_edamame_app_key
+    VITE_SPOONACULAR_API_KEY=your_spoonacular_api_key
+    VITE_OPENAI_API_KEY=your_openai_api_key
+    VITE_GEMINI_API_KEY=your_gemini_api_key
+    VITE_GOOGLE_AUTH_CLIENT_ID=your_google_auth_client_id
+    VITE_OPENROUTER_API_KEY=your_openrouter_api_key
+    ```
+    **Note:** Replace the placeholder values with your actual API keys.
+3.  Ensure your `.gitignore` file includes `.env` to prevent your keys from being accidentally committed to version control.
 
 ## Project Structure
 This project follows a standard React application structure, organized for modularity and maintainability.
